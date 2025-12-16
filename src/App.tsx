@@ -223,7 +223,7 @@ export default function App() {
         <div className="card result-card">
           <h2>🔥 최종 전투력 : {totalCombatPower.toLocaleString()}</h2>
           <p><strong>법사스킬 투력 : </strong> {skillDPT.toLocaleString()}</p>
-          <p><strong>전사 투력 : </strong> {normalAttackDPT.toLocaleString()}</p>
+          <p><strong>전사스킬 투력 : </strong> {normalAttackDPT.toLocaleString()}</p>
           <hr/>
           <h2>📈 현재 스크롤효율</h2>
           <div className="efficiency-list">
