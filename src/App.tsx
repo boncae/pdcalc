@@ -213,6 +213,9 @@ export default function App() {
             efficiency={efficiency.CD} 
             onChange={(e) => handleStatChange("CD", e)} 
           />
+<p className="read-the-docs">
+            *보스전에서 스킬만 쓰고 빠질때의 전투력을 기준으로 설계됐습니다.
+          </p>
 
         </div>
 
@@ -264,7 +267,12 @@ export default function App() {
 
       <a target="_blank">
         <img src={myNewImage} className="logo react" alt="새로운 로고" />
+<p className="read-the-docs">
+            이 사이트는 저작권이 없으며 데이터는 사용자 컴퓨터에 저장되고 서버에 전송되지않습니다.
+          </p>
+
       </a>
+
     </>
   );
 }
